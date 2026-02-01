@@ -4,5 +4,6 @@ def handler(request):
         "headers": {
             "Content-Type": "application/json"
         },
-        "body": '{"status": "ok", "message": "Serverless function is running"}'
+        "body": '{"status":"ok","message":"Serverless function is running"}'
     }
+
